@@ -9,7 +9,7 @@ public class Problem8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(Problem1.class.getResourceAsStream("/MonoisotopicMassTable.txt"));
         Scanner sc1 = new Scanner(Problem1.class.getResourceAsStream("/rosalind_prtm.txt"));
-        new Problem8().lexf("C A G T", "2");
+        new Problem8().lexf("A B C D E", "4");
     }
 
     private void lexf(String str, String str1) {
